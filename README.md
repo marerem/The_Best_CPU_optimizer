@@ -45,6 +45,6 @@ We have applied two filtering criteria to select the best-performing optimizers:
 
 After applying the selection criteria, the remaining optimizers are presented in the results table. You can choose the best optimizer based on your specific needs:
 **if the name contains 0 at the end example(**Nadam0**), it means that the started learning rate is 0.001,if the optimizer name without it then started learning rate is 0.01**
-<img width="1192" alt="Screenshot 2023-11-05 at 19 20 49" src="https://github.com/marerem/The_Best_CPU_optimizer/assets/101661237/c09468da-18d4-4456-8131-242b503f5aac">
+<img width="1239" alt="Screenshot 2023-11-05 at 19 20 38" src="https://github.com/marerem/The_Best_CPU_optimizer/assets/101661237/c23516f3-ed43-425c-9ba8-eb3fa4a5fea8">
 
 Please select an optimizer based on your preference, whether it's the highest mean accuracy, faster training times, or other specific requirements. Experimenting with different optimizers and learning rates is encouraged to find the best fit for your particular use case.
