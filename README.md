@@ -1,7 +1,7 @@
 # The Best CPU optimizer
 
 
-This readme provides an overview of the performance of various optimizers when training a simple neural network model on the FashionMNIST dataset for 10 epochs using only CPU resources. The model consists of two fully connected layers, and we evaluate different optimizers with two different initial learning rates, discarding those with an initial accuracy below 82% and an average accuracy below 86.7% over the 10 epochs. The optimizers that meet these criteria are then presented for you to choose based on your specific needs.
+This readme provides an overview of the performance of various optimizers when training a simple neural network model on the FashionMNIST dataset for 10 epochs using only CPU resources. The model consists of two fully connected layers, and we evaluate different optimizers with two different initial learning rates[0.01, 0.001], discarding those with an initial accuracy below 82% and an average accuracy below 86.7% over the 10 epochs. The optimizers that meet these criteria are then presented for you to choose based on your specific needs.
 
 ## Dataset and Model
 
@@ -44,6 +44,7 @@ We have applied two filtering criteria to select the best-performing optimizers:
 ## Results
 
 After applying the selection criteria, the remaining optimizers are presented in the results table. You can choose the best optimizer based on your specific needs:
+**if the name contains 0 at the end example(**Nadam0**), it means that the started learning rate is 0.001,if the optimizer name without it then started learning rate is 0.01**
 <img width="1192" alt="Screenshot 2023-11-05 at 19 20 49" src="https://github.com/marerem/The_Best_CPU_optimizer/assets/101661237/c09468da-18d4-4456-8131-242b503f5aac">
 
 Please select an optimizer based on your preference, whether it's the highest mean accuracy, faster training times, or other specific requirements. Experimenting with different optimizers and learning rates is encouraged to find the best fit for your particular use case.
